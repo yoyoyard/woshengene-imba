@@ -1,0 +1,56 @@
+@import 'assets/css/mustard-ui.min.css';
+
+.App {
+  header {
+    background: white;
+
+    img {
+      width: 180px;
+      height: 180px;
+    }
+
+    .title {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 20px;
+    }
+
+    button {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+  table {
+    td {
+      position: relative;
+    }
+  }
+
+  .more-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(50% - 16px);
+    right: 0;
+    width: 32px;
+    height: 32px;
+
+    &:before {
+      display: block;
+      position: relative;
+      bottom: 2px;
+      content: '';
+      transform: rotate(-135deg);
+      width: 12px;
+      height: 12px;
+      border: 2px solid #424242;
+      border-width: 0px 0 2px 2px;
+    }
+  }
+
+  .stepper .step {
+    padding-right: 0;
+  }
+}

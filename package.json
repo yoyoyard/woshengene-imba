@@ -1,0 +1,35 @@
+{
+  "name": "woshengene",
+  "description": "Imba experiment frontend wechat site",
+  "keywords": [
+    "imba",
+    "sass"
+  ],
+  "author": "YoyoYard",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --content-base dist/",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --progress --colors --display-modules"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "imba": "1.4.1",
+    "imba-router": "^0.2.0",
+    "style-loader": "^0.23.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "image-webpack-loader": "^4.6.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
